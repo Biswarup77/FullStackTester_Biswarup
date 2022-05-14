@@ -37,7 +37,7 @@ public class Scenario1 extends BaseTest {
 	@BeforeClass
 	public void beforeClass() throws Exception {
 		
-		details = new FileInputStream("C:\\Users\\PrasantaMukherjee\\git\\AppiumProject\\src\\test\\resources\\Data\\data.json");
+		details = new FileInputStream("C:\\Users\\BiswarupDan\\git\\AppiumProject\\src\\test\\resources\\Data\\data.json");
 		JSONTokener jsonToken = new JSONTokener(details);
 		loginUsers = new JSONObject(jsonToken);
 		closeApp();
